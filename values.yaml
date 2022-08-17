@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: k8spacket/k8spacket
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
 
 serviceAccount:
   create: true
